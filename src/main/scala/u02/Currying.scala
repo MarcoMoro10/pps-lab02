@@ -1,6 +1,7 @@
 package u02
 
-object Currying extends App :
+@main
+def currying(): Unit =
 
   // standard function with no currying
   def mult(x: Double, y: Double): Double = x * y

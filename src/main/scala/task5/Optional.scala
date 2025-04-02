@@ -62,3 +62,5 @@ object Optionals:
      * @return the result of applying the function to the value of the optional if it is Maybe, otherwise Empty
      */
     def map[A, B](optional: Optional[A], f: A => B): Optional[B] = ???
+
+@main def test(): Unit = println("ello")
